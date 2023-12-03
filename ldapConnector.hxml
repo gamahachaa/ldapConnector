@@ -1,0 +1,11 @@
+-lib tstool
+-lib lrs
+-lib xapi
+-lib utils
+-cp src
+-cp ../../_devHaxeLib/LDAP/LDAP
+-php bin
+-D php7
+-D source_map
+-D haxeJSON
+-main Main
